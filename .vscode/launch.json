@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "MANAGEPLATFORM server",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "https://itb2204.bc365.eu",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "schemaUpdateMode": "ForceSync",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "MANAGEPLATFORM"
+        }
+    ]
+}
